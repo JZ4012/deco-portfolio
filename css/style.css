@@ -46,29 +46,8 @@ body{
   left:47.395833%;
   bottom:0;
   height:8%;
-  -webkit-animation:scrollIcon 1s infinite;
-  -moz-animation:scrollIcon 1s infinite;
-  -o-animation:scrollIcon 1s infinite;
   animation:scrollIcon 1s infinite;
 
-}
-
-@-webkit-keyframes scrollIcon {
-  0%       { bottom:0px; }
-  50%      { bottom:15px; }
-  100%     {bottom:30;}
-}
-
- @-moz-keyframes scrollIcon {
-  0%       { bottom:0px; }
-  50%      { bottom:15px; }
-  100%     {bottom:30;}
-}
-
- @-o-keyframes scrollIcon {
-  0%       { bottom:0px; }
-  50%      { bottom:15px; }
-  100%     {bottom:30;}
 }
 
  @keyframes scrollIcon {
