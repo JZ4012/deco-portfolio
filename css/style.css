@@ -4,7 +4,7 @@
  }
 
 body{
-  background-color: white;
+  background-color: #ffd1b3;
 }
 
 .introText{
@@ -21,7 +21,7 @@ body{
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
   font-size: 5em;
-
+  color: #ff4d4d;
 }
 
 .introText ul>li:last-child{
@@ -39,6 +39,7 @@ body{
   font-family: 'Roboto', sans-serif;
   font-weight: 200;
   font-size: 1.5em;
+  color: #ff4d4d;
 }
 
 .scrollIcon {
@@ -47,7 +48,6 @@ body{
   bottom:0;
   height:8%;
   animation:scrollIcon 1s infinite;
-
 }
 
  @keyframes scrollIcon {
