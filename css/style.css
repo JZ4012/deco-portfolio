@@ -88,11 +88,18 @@ section{
   border-style: solid;
   border-color: #ff4d4d;
   background-color: Transparent;
-  padding: 10px;
+  padding: 10px 25px;
   text-align: center;
   text-decoration: none;
   margin: 20px;
   margin-top: 50px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button:hover{
+  background-color: #ff4d4d;
+  color: white;
 }
 
  @keyframes scrollIcon{
