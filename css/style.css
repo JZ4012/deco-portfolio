@@ -12,8 +12,18 @@ section{
 .backToTopBtn{
   position: fixed;
   width: 50px;
-  top: 95%;
+  top: 92%;
   right: 2%;
+  border: none;
+  background-color: Transparent;
+  cursor: pointer;
+  border-radius: 85%;
+  z-index: 1;
+  transition: 0.4s;
+}
+
+.backToTopBtn:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .intro{
@@ -32,7 +42,7 @@ section{
   font-weight: 300;
   font-size: 7em;
   color: #ff4d4d;
-  letter-spacing: 15px;
+  letter-spacing: 30px;
 }
 
 .subtitle{
