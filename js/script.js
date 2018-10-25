@@ -1,6 +1,6 @@
 //Fade animation for the arrow.
 $(window).scroll(function(){
-    $(".scrollIcon").css("opacity", 1 - $(window).scrollTop() / 500);
+    $(".scrollIcon").css("opacity", 1.5 - $(window).scrollTop() / 500);
   });
 
 //animated scroll to top function.
