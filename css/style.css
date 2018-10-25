@@ -145,9 +145,6 @@ section{
   color: #77ad81;
 }
 
-.aboutContainer>p:last-child{
-
-}
 
 .journalSection{
   font-family: 'Raleway', sans-serif;
@@ -172,7 +169,7 @@ section{
 }
 
 #devsep{
-  top: 45%;
+  top: 35%;
   height: 0;
   width: 25%;
   left: 0;
