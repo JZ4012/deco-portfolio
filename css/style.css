@@ -108,6 +108,7 @@ section{
   margin-top: 50px;
   transition-duration: 0.4s;
   cursor: pointer;
+  width: 25%;
 }
 
 .button:hover{
