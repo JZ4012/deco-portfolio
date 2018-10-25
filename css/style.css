@@ -20,8 +20,7 @@ section{
   background-image: linear-gradient(135deg, #3171b4 , #c4e9ed);
 }
 
-.introText{
-  list-style: none;
+.introText>h1{
   position: absolute;
   left: 50%;
   top: 30%;
@@ -29,19 +28,11 @@ section{
   transform: translateX(-50%) translateY(-50%);
   animation: textFadeIn 2s;
   animation-fill-mode: forwards;
-}
-
-.introText ul>li{
-  display: inline-block;
-  margin-right: 25px;
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
-  font-size: 5em;
+  font-size: 7em;
   color: #ff4d4d;
-}
-
-.introText ul>li:last-child{
-  margin-right: 0;
+  letter-spacing: 15px;
 }
 
 .subtitle{
@@ -120,14 +111,17 @@ section{
   top: 105%;
   left: 5%;
   font-size: 3em;
+  font-weight: 500;
 }
 
 .aboutSection{
-  background-color: #3171b4;
   font-family: 'Raleway', sans-serif;
+  height: 70vh;
+  background-color: white;
+  color: #77ad81;
 }
 
-.aboutSection>section{
+.seperator{
   position: absolute;
   top: 112%;
   border: solid 2px #ff4d4d;
@@ -142,6 +136,46 @@ section{
   width: 60%;
   top: 115%;
   left: 5%;
+  color: #65717a;
+}
+
+.aboutContainer>h1{
+  font-size: 1.2em;
+  font-weight: 500;
+  color: #77ad81;
+}
+
+.aboutContainer>p:last-child{
+
+}
+
+.journalSection{
+  font-family: 'Raleway', sans-serif;
+  background-color: #65717a;
+}
+
+#about{
+  position: absolute;
+  top: 100%;
+  border: dashed 3px grey;
+  height: 0;
+  width: 99.4%;
+  left: 0;
+}
+#about2{
+  position: absolute;
+  top: 169.4vh;
+  border: dashed 3px grey;
+  height: 0;
+  width: 99.4%;
+  left: 0;
+}
+
+#devsep{
+  top: 45%;
+  height: 0;
+  width: 25%;
+  left: 0;
 }
 
  @keyframes scrollIcon{
