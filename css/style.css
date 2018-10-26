@@ -20,6 +20,7 @@ section{
   border-radius: 85%;
   z-index: 1;
   transition: 0.4s;
+  opacity: 0;
 }
 
 .backToTopBtn:hover{
@@ -41,7 +42,7 @@ section{
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
   font-size: 7em;
-  color: #cccccc;
+  color: #e6e6e6;
   letter-spacing: 30px;
 }
 
@@ -61,14 +62,14 @@ section{
 .subtitle p{
   font-family: 'Lato', sans-serif;
   font-weight: 400;
-  font-size: 1.5em;
-  color: #cccccc;
+  font-size: 1.2em;
+  color: #e6e6e6;
 }
 
 .skipContents{
   position: absolute;
-  font-family: 'Raleway', sans-serif;
-  color: #cccccc;
+  font-family: 'Lato', sans-serif;
+  color: #e6e6e6;
   text-align: center;
   font-size: 1.2em;
   opacity: 0;
@@ -89,14 +90,14 @@ section{
 }
 
 .button{
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 1em;
   display: inline-block;
   border-radius: 8px;
   border: 2px;
   border-style: solid;
   border-color: #ff4d4d;
-  color: #cccccc;
+  color: #e6e6e6;
   background-color: Transparent;
   padding: 10px 25px;
   text-align: center;
@@ -105,12 +106,13 @@ section{
   margin-top: 50px;
   transition-duration: 0.4s;
   cursor: pointer;
+  width: 25%;
 }
 
 .button:hover{
-  border-color: #cccccc;
+  border-color: #e6e6e6;
   background-color: #ff4d4d;
-  color: #cccccc;
+  color: #e6e6e6;
 }
 
 .titleText{
@@ -121,8 +123,12 @@ section{
   font-weight: 500;
 }
 
-.aboutSection{
+.aboutSection h1{
   font-family: 'Raleway', sans-serif;
+}
+
+.aboutSection{
+  font-family: 'Lato', sans-serif;
   height: 70vh;
   background-color: #f2f2f2;
   color: #77ad81;
@@ -133,7 +139,7 @@ section{
   top: 112%;
   border: solid 2px #ff4d4d;
   height: 0;
-  width: 65%;
+  width: 60%;
   left: 5%;
 }
 
@@ -150,23 +156,34 @@ section{
   left: 20%;
   width: 25%;
   position: absolute;
-  top: 140%;
+  top: 180%;
 }
 
 .subBox p{
   font-size: 0.9em;
 }
 
-.subBox>h1{
+.subBox>h1, .journalSection>h1{
   font-size: 1.2em;
   font-weight: 500;
   color: #77ad81;
 }
 
-
 .journalSection{
+    background-color: rgba(245,247,245,0.95);
+    width: 100%;
+}
+
+.journalSection h1{
   font-family: 'Raleway', sans-serif;
-  background-color: rgba(245,247,245,0.95);
+  color: #77ad81;
+  position: absolute;
+  left: 5%;
+}
+
+.journalSection>h1{
+  top: 175%;
+  font-size: 3em;
 }
 
 #about, #about2{
@@ -183,7 +200,7 @@ section{
 }
 
 #devSep, #designSep, #othersSep{
-  top: 180%;
+  top: 218%;
   height: 0;
   width: 25%;
   left: 20%;
