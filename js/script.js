@@ -12,7 +12,16 @@ function scrollToSection(id) {
 function scrollfunction() {
     if (document.documentElement.scrollTop > 360) {
         document.getElementById("bttb").style.opacity = "1";
+        document.getElementById("bttb").style.cursor = "pointer";
     } else {
         document.getElementById("bttb").style.opacity = "0";
+        document.getElementById("bttb").style.cursor = "default";
+    }
+    if (document.documentElement.scrollTop > 1000) {
+        document.getElementById("menuico").style.opacity = "1";
+        document.getElementById("menuico").style.cursor = "pointer";
+    } else {
+        document.getElementById("menuico").style.opacity = "0";
+        document.getElementById("menuico").style.cursor = "default";
     }
 }
