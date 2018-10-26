@@ -1,4 +1,4 @@
-//Fade animation for the arrow.
+//Fade animation for the arrow on the welcome screen.
 $(window).scroll(function(){
     $(".scrollIcon").css("opacity", 1.5 - $(window).scrollTop() / 500);
   });
@@ -8,7 +8,7 @@ function scrollToSection(id) {
   $('html, body').animate({scrollTop: $("#"+id).offset().top}, 500);
 }
 
-//decides if the back to top button appears.
+//determines if the back to top button and menu button appears.
 function scrollfunction() {
     if (document.documentElement.scrollTop > 360) {
         document.getElementById("bttb").style.opacity = "1";
@@ -17,7 +17,7 @@ function scrollfunction() {
         document.getElementById("bttb").style.opacity = "0";
         document.getElementById("bttb").style.cursor = "default";
     }
-    if (document.documentElement.scrollTop > 1000) {
+    if (document.documentElement.scrollTop > 1200) {
         document.getElementById("menuico").style.opacity = "1";
         document.getElementById("menuico").style.cursor = "pointer";
     } else {
