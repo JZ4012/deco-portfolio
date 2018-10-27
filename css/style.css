@@ -39,6 +39,7 @@ section{
 
 .intro{
   background-image: -webkit-linear-gradient(150deg, #005c99 35%, #006bb3 35%);
+  width: 100%;
 }
 
 .introText>h1{
@@ -113,7 +114,6 @@ section{
   text-align: center;
   text-decoration: none;
   margin: 20px;
-  margin-top: 50px;
   transition-duration: 0.4s;
   cursor: pointer;
   width: 25%;
@@ -155,22 +155,26 @@ section{
 
 .aboutContainer{
   position: absolute;
-  font-size: 1.2em;
   width: 60%;
   top: 115%;
   left: 5%;
   color: #65717a;
 }
 
+.aboutContainer>p{
+  font-size: 1.2em;
+}
+
 .subBox{
   left: 20%;
   width: 25%;
   position: absolute;
-  top: 180%;
+  top: 200%;
 }
 
 .subBox p{
-  font-size: 0.9em;
+  font-size: 1.2em;
+  font-family: 'Lato', sans-serif;
 }
 
 .subBox>h1, .journalSection>h1{
@@ -196,6 +200,57 @@ section{
   font-size: 3em;
 }
 
+.photoContainer{
+  position: absolute;
+  height: 90vh;
+  width: 60vw;
+  right: 0%;
+  top: 175%;
+  font-family: 'Lato', sans-serif;
+}
+
+.journalPhoto{
+  position: absolute;
+  top: 0%;
+  opacity: 1;
+  transition: 0.4s;
+}
+
+.journalPhoto:hover{
+  opacity: 0.2;
+  transition: 0.4s;
+}
+
+.imageText{
+  position: absolute;
+  background-color: red;
+  width: 25%;
+  opacity: 0;
+}
+
+.imageText:hover{
+  opacity: 1;
+}
+
+#journalphoto2{
+  left: 30%;
+}
+
+#journalphoto4{
+  left: 60%;
+}
+
+#journalphoto5{
+  left: 60%;
+  top: 50%;
+}
+
+#journal1Text{
+  left: 1.1%;
+  width: 25.25%;
+  height: 25%;
+}
+
 #about, #about2{
   position: absolute;
   top: 100%;
@@ -207,10 +262,11 @@ section{
 
 #about2{
   top: 169.4vh;
+  border: dashed 3px white;
 }
 
 #devSep, #designSep, #othersSep{
-  top: 218%;
+  top: 250%;
   height: 0;
   width: 25%;
   left: 20%;
@@ -222,6 +278,17 @@ section{
 
 #othersBox, #othersSep{
   left: 100%;
+}
+
+#journalBox{
+  width: 25%;
+  top: 185%;
+  left: 5%;
+}
+
+#journalSep1{
+  top: 182%;
+  width: 25%;
 }
 
  @keyframes scrollIcon{
