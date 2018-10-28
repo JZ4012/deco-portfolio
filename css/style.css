@@ -42,7 +42,7 @@ section{
   width: 100%;
 }
 
-.introText>h1{
+.introText{
   position: absolute;
   left: 50%;
   top: 30%;
@@ -55,6 +55,7 @@ section{
   font-size: 7em;
   color: #e6e6e6;
   letter-spacing: 30px;
+  text-indent: 30px;
 }
 
 .subtitle{
