@@ -10,10 +10,14 @@
     <title>Josh's Portfolio</title>
   </head>
   <body onscroll="scrollfunction()">
-    <button class="menuicon" id="menuico">
-      <img src="images/menu.png" alt="menuicon" width="35px">
-    </button>
-    <div class="menu">
+    <div class="menu" id="menu">
+      <button onclick="menuOpenClose()" type="button" class="menuButton" id="menuHead">Menu</button>
+      <button onclick="scrollToSection('journalTag')" type="button" class="menuButton">Journals</button>
+      <button onclick="scrollToSection('partATag')" type="button" class="menuButton">Part A</button>
+      <button onclick="scrollToSection('partBTag')" type="button" class="menuButton">Part B</button>
+      <button onclick="scrollToSection('partCTag')" type="button" class="menuButton">Part C</button>
+      <button onclick="scrollToSection('reflectionTag')" type="button" class="menuButton">Reflection</button>
+      <button onclick="scrollToSection('portfolioTag')" type="button" class="menuButton">Portfolio</button>
     </div>
     <button class="backToTopBtn" id="bttb" onclick="scrollToSection('topOfPage')">
       <img src="images/backToTop.png" alt="backToTopButton" width="50px">
@@ -114,9 +118,6 @@
     </section>
     <section class="portfolioSection" id="portfolioTag">
       <h1 class="titleText">Portfolio process</h1>
-    </section>
-    <section class="otherSection" id="otherTag">
-      <h1 class="titleText">Other work</h1>
     </section>
   </body>
 </html>
