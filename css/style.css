@@ -132,6 +132,7 @@ section{
   left: 5%;
   font-size: 3em;
   font-weight: 500;
+  font-family: 'Raleway', sans-serif;
 }
 
 .aboutSection h1{
@@ -189,7 +190,7 @@ section{
     width: 100%;
 }
 
-.journalSection h1{
+.journalSection>h1{
   font-family: 'Raleway', sans-serif;
   color: #77ad81;
   position: absolute;
@@ -200,6 +201,7 @@ section{
   top: 175%;
   font-size: 3em;
 }
+
 
 .photoContainer{
   position: absolute;
@@ -212,25 +214,34 @@ section{
 
 .journalPhoto{
   position: absolute;
-  top: 0%;
-  opacity: 1;
-  transition: 0.4s;
 }
 
-.journalPhoto:hover{
-  opacity: 0.2;
-  transition: 0.4s;
+.partASection>h1{
+  top: 275%;
 }
 
-.imageText{
-  position: absolute;
-  background-color: red;
-  width: 25%;
-  opacity: 0;
+.partBSection, .reflectionSection, .otherSection{
+  background-color: grey;
 }
 
-.imageText:hover{
-  opacity: 1;
+.partBSection>h1{
+  top: 375%;
+}
+
+.partCSection>h1{
+  top: 475%;
+}
+
+.reflectionSection>h1{
+  top: 575%;
+}
+
+.portfolioSection>h1{
+  top: 675%;
+}
+
+.otherSection>h1{
+  top: 775%;
 }
 
 #journalphoto2{
@@ -252,7 +263,7 @@ section{
   height: 25%;
 }
 
-#about, #about2{
+#about, #about2, #journalSep2{
   position: absolute;
   top: 100%;
   border: dashed 3px #005c99;
@@ -261,9 +272,14 @@ section{
   left: 0;
 }
 
+#journalSep2{
+  top: 270%;
+  border: dashed 3px grey;
+}
+
 #about2{
   top: 169.4vh;
-  border: dashed 3px white;
+  border: dashed 3px grey;
 }
 
 #devSep, #designSep, #othersSep{
@@ -291,6 +307,7 @@ section{
   top: 182%;
   width: 25%;
 }
+
 
  @keyframes scrollIcon{
   0% {
