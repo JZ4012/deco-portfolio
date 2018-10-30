@@ -10,7 +10,7 @@ function scrollToSection(id) {
 
 //determines if the back to top button and menu button appears.
 function scrollfunction() {
-  if (document.documentElement.scrollTop > 360) {
+  if (document.documentElement.scrollTop > 500) {
     document.getElementById("bttb").style.opacity = "1";
     document.getElementById("menu").style.opacity = "1";
     document.getElementById("bttb").style.cursor = "pointer";

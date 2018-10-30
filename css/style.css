@@ -23,6 +23,12 @@ section{
   opacity: 0;
 }
 
+.pdfViewer{
+  position: relative;
+  left: 62%;
+  top: 5%;
+}
+
 .menuicon{
   top: 40%;
   left: 1%;
@@ -56,6 +62,7 @@ section{
   width: 100%;
   margin:0;
   padding:0;
+  cursor: pointer;
 }
 
 .backToTopBtn:hover{
@@ -158,6 +165,7 @@ section{
   font-size: 3em;
   font-weight: 500;
   font-family: 'Raleway', sans-serif;
+  color: #77ad81;
 }
 
 .aboutSection h1{
@@ -202,9 +210,11 @@ section{
 .subBox p{
   font-size: 1.2em;
   font-family: 'Lato', sans-serif;
+  color: #65717a
 }
 
 .subBox>h1, .journalSection>h1{
+  font-family: 'Raleway', sans-serif;
   font-size: 1.2em;
   font-weight: 500;
   color: #77ad81;
@@ -217,7 +227,6 @@ section{
 
 .journalSection>h1{
   font-family: 'Raleway', sans-serif;
-  color: #77ad81;
   position: absolute;
   left: 5%;
 }
@@ -307,7 +316,7 @@ section{
   border: dashed 3px grey;
 }
 
-#devSep, #designSep, #othersSep{
+#devSep, #designSep, #othersSep, #partASep{
   top: 250%;
   height: 0;
   width: 25%;
@@ -333,6 +342,37 @@ section{
   width: 25%;
 }
 
+#partAWork{
+  top: 300%;
+  left: 5%;
+}
+
+#partAProc{
+  top: 315%;
+  left: 5%;
+}
+
+#PartAContainer{
+  top: 285%;
+  width: 40%;
+  font-family: 'Lato', sans-serif;
+}
+
+#partASep{
+  top: 282%;
+  left: 5%;
+  width: 40%;
+}
+
+#partAMyWorkSep{
+  top: 25%;
+  left: 0%;
+}
+
+#partAMyProcSep{
+  top: 25%;
+  left: 0%;
+}
 
  @keyframes scrollIcon{
   0% {
