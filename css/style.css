@@ -255,7 +255,7 @@ section{
 }
 
 .partBSection, .reflectionSection, .otherSection{
-  background-color: rgba(245,247,245,0.95);
+  background-color: grey;
 }
 
 .partBSection>h1{
@@ -281,13 +281,7 @@ section{
 .partASection>figure{
   position: absolute;
   left:35%;
-  top: 305%;
-}
-
-.partASection>figure:nth-of-type(2){
-  position: absolute;
-  left:35%;
-  top: 335%;
+  top: 300%;
 }
 
 figure{
@@ -392,45 +386,6 @@ figure{
   top: 5.5%;
   left: 0%;
   width: 100%;
-}
-
-#partBWork{
-  top: 400%;
-  left: 5%;
-}
-
-#PartBContainer{
-  top: 385%;
-  width: 40%;
-  font-family: 'Lato', sans-serif;
-}
-
-#partBSep{
-  top: 382%;
-  left: 5%;
-  width: 40%;
-}
-
-#partBWorkSep{
-  top: 11%;
-  left: 0;
-  width: 100%;
-}
-
-#partBJS{
-  top: 400%;
-  left: 35%;
-}
-
-#partBJSSep{
-  top: 12.5%;
-  left: 0;
-  width: 100%;
-}
-
-#partBYear{
-  top: 400%;
-  left: 65%;
 }
 
  @keyframes scrollIcon{
