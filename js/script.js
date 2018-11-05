@@ -23,6 +23,7 @@ function scrollfunction() {
   }
 }
 
+//Used for opening and closing the navigation menu
 var x = 1;
 function menuOpenClose() {
   if (x == 0){
@@ -33,4 +34,13 @@ function menuOpenClose() {
     document.getElementById("menu").style.height = "27%";
     x = 0;
   }
+}
+
+//Modal functionality
+function openmodal(id) {
+    document.getElementById(id).style.display = "block";
+}
+
+function exitmodal(id) {
+    document.getElementById(id).style.display = "none";
 }
