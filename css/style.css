@@ -250,12 +250,12 @@ section{
   position: absolute;
 }
 
-.partASection>h1{
-  top: 275%;
-}
-
 .partBSection, .reflectionSection, .otherSection{
   background-color: rgba(245,247,245,0.95);
+}
+
+.partASection>h1{
+  top: 275%;
 }
 
 .partBSection>h1{
