@@ -290,6 +290,12 @@ section{
   top: 335%;
 }
 
+.dashImg{
+  position: absolute;
+  top: 450%;
+  left: 5%;
+}
+
 figure{
   font-family: 'Lato', sans-serif;
   font-size: 0.8em;
@@ -445,6 +451,17 @@ figure{
   top: 57%;
   left: 40%;
   color: black;
+}
+
+#partBDash{
+  top: 435%;
+  left: 5%;
+}
+
+#partBDashSep{
+  width: 100%;
+  top: 20%;
+  left: 0;
 }
 
  @keyframes scrollIcon{
