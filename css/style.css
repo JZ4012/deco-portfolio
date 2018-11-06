@@ -433,6 +433,20 @@ figure{
   left: 65%;
 }
 
+#partBYearSep{
+  top: 7%;
+  left: 0;
+  width: 100%;
+}
+
+#modalButton{
+  width: 10%;
+  position: relative;
+  top: 57%;
+  left: 40%;
+  color: black;
+}
+
  @keyframes scrollIcon{
   0% {
     bottom:0px;
