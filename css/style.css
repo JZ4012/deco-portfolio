@@ -263,19 +263,15 @@ section{
 }
 
 .partCSection>h1{
-  top: 475%;
+  top: 495%;
 }
 
 .reflectionSection>h1{
-  top: 575%;
+  top: 595%;
 }
 
 .portfolioSection>h1{
-  top: 675%;
-}
-
-.otherSection>h1{
-  top: 775%;
+  top: 695%;
 }
 
 .partASection>figure{
@@ -290,10 +286,23 @@ section{
   top: 335%;
 }
 
-.dashImg{
+.dash{
   position: absolute;
-  top: 450%;
-  left: 5%;
+  top: 460%;
+  left: 25%;
+  display: inline-block;
+}
+
+.dash .bottomImg{
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.dash:hover .bottomImg{
+  display: inline;
 }
 
 figure{
@@ -448,7 +457,7 @@ figure{
 #modalButton{
   width: 10%;
   position: relative;
-  top: 57%;
+  top: 50%;
   left: 40%;
   color: black;
 }
@@ -460,7 +469,22 @@ figure{
 
 #partBDashSep{
   width: 100%;
-  top: 20%;
+  top: 15%;
+  left: 0;
+}
+
+#partBTag{
+  height: 110vh;
+}
+
+#partBReport{
+  top: 435%;
+  left: 35%;
+}
+
+#partBReportSep{
+  width: 100%;
+  top: 15%;
   left: 0;
 }
 
