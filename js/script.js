@@ -37,10 +37,10 @@ function menuOpenClose() {
 }
 
 //Modal functionality
-function openmodal(id) {
+function openModal(id) {
     document.getElementById(id).style.display = "block";
 }
 
-function exitmodal(id) {
+function exitModal(id) {
     document.getElementById(id).style.display = "none";
 }

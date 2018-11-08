@@ -188,7 +188,13 @@
         <br>
         <p>My part for the report was completed after the work on my year page ended. I was responsible for the introduction, progress so far and the changes made (during prototyping). This time around, the report only involved two people (myself and Brian) for better clarity and flow. </p>
       </div>
-      <button class="button" id="modalButton" onclick="openModal(modal)" type="button" name="modal">Click me!</button>
+      <button class="button" id="modalButton" onclick="openModal('modal')" type="button" name="modal">Click me!</button>
+      <div id="modal">
+        <div class="content">
+          <span onclick="exitModal('modal')" class="exit">&times;</span>
+          <p>hello there general kenobi</p>
+        </div>
+      </div>
       <div class="dash">
           <img src="images/dashboard.png" class="bottomImg"alt="dashboard_early" height="125px;">
           <img src="images/dashboard2.png"  alt="dashboard_final" height="123px;">
