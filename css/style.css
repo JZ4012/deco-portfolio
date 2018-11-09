@@ -523,6 +523,72 @@ figure{
   left: 0;
 }
 
+#partCSep{
+  top: 492%;
+  width: 40%;
+}
+
+#partCContainer{
+  top: 492%;
+  width: 40%;
+  font-family: 'Lato', sans-serif;
+}
+
+#partCWork{
+  top: 507%;
+  left: 5%;
+}
+
+#partCWorkSep{
+  top: 12%;
+  left: 0;
+  width: 100%;
+}
+
+#partCReport{
+  top: 507%;
+  left: 35%;
+}
+
+#partCReportSep{
+  top: 6.5%;
+  left: 0;
+  width: 100%;
+}
+
+#partCBug{
+  top: 507%;
+  left: 70%;
+}
+
+#partCBugSep{
+  top: 9%;
+  left: 0;
+  width: 100%;
+}
+
+#partCPitch{
+  top: 535%;
+  left: 5%;
+}
+
+#partCPitchSep{
+  top: 11%;
+  left: 0;
+  width: 100%;
+}
+
+#partCOther{
+  top: 542%;
+  left: 70%;
+}
+
+#partCOtherSep{
+  top: 18%;
+  left: 0;
+  width: 100%;
+}
+
  @keyframes scrollIcon{
   0% {
     bottom:0px;
