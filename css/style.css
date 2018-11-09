@@ -622,6 +622,28 @@ figure{
   width: 100%;
 }
 
+#reflectionC{
+  top: 607%;
+  left: 65%;
+}
+
+#reflectionCSep{
+  top: 12%;
+  left: 0;
+  width: 100%;
+}
+
+#reflectionOverall{
+  top: 632%;
+  left: 65%;
+}
+
+#reflectionOverallSep{
+  top: 12%;
+  left: 0;
+  width: 100%;
+}
+
  @keyframes scrollIcon{
   0% {
     bottom:0px;
