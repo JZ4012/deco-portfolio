@@ -558,7 +558,7 @@ figure{
 
 #partCBug{
   top: 507%;
-  left: 70%;
+  left: 65%;
 }
 
 #partCBugSep{
@@ -580,11 +580,44 @@ figure{
 
 #partCOther{
   top: 542%;
-  left: 70%;
+  left: 65%;
 }
 
 #partCOtherSep{
   top: 18%;
+  left: 0;
+  width: 100%;
+}
+
+#reflectionSep{
+  top: 592%;
+  width: 40%;
+}
+
+#reflectionContainer{
+  top: 592%;
+  width: 40%;
+  font-family: 'Lato', sans-serif;
+}
+
+#reflectionA{
+  top: 607%;
+  left: 5%;
+}
+
+#reflectionASep{
+  top: 7%;
+  left: 0;
+  width: 100%;
+}
+
+#reflectionB{
+  top: 607%;
+  left: 35%;
+}
+
+#reflectionBSep{
+  top: 7%;
   left: 0;
   width: 100%;
 }
