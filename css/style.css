@@ -666,6 +666,30 @@ figure{
   font-family: 'Lato', sans-serif;
 }
 
+#portfolioDesign{
+  top: 705%;
+  left: 5%;
+}
+
+#portfolioDesignSep{
+  top: 7%;
+  left: 0;
+  width: 100%;
+}
+
+#portfolioLayout{
+  top: 705%;
+  left: 35%;
+}
+
+#portfolioLayoutSep{
+  top: 7%;
+  left: 0;
+  width: 100%;
+}
+
+
+
  @keyframes scrollIcon{
   0% {
     bottom:0px;
