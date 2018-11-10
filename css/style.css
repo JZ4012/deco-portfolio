@@ -601,7 +601,7 @@ figure{
 }
 
 #reflectionA{
-  top: 607%;
+  top: 605%;
   left: 5%;
 }
 
@@ -612,7 +612,7 @@ figure{
 }
 
 #reflectionB{
-  top: 607%;
+  top: 605%;
   left: 35%;
 }
 
@@ -623,8 +623,8 @@ figure{
 }
 
 #reflectionC{
-  top: 607%;
-  left: 65%;
+  top: 650%;
+  left: 35%;
 }
 
 #reflectionCSep{
@@ -634,14 +634,36 @@ figure{
 }
 
 #reflectionOverall{
-  top: 632%;
+  top: 605%;
   left: 65%;
 }
 
 #reflectionOverallSep{
+  top: 6%;
+  left: 0;
+  width: 100%;
+}
+
+#reflectionFeedback{
+  top: 655%;
+  left: 65%;
+}
+
+#reflectionFeedbackSep{
   top: 12%;
   left: 0;
   width: 100%;
+}
+
+#portfolioSep{
+  top: 692%;
+  width: 40%;
+}
+
+#portfolioContainer{
+  top: 692%;
+  width: 40%;
+  font-family: 'Lato', sans-serif;
 }
 
  @keyframes scrollIcon{
