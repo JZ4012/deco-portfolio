@@ -248,6 +248,12 @@ section{
 
 .journalPhoto{
   position: absolute;
+  transition: 0.4s;
+}
+
+.journalPhoto:hover{
+  opacity: 0;
+  transition: 0.4s;
 }
 
 .partBSection, .reflectionSection, .otherSection{
@@ -344,6 +350,17 @@ figure{
   height: 100%;
   overflow: hidden;
   background-color: rgba(0,0,0,0.4);
+}
+
+#week3{
+  top: 190%;
+  left: 41%;
+  width: 14%;
+  z-index: 0;
+}
+
+#journalphoto1{
+  z-index: 1;
 }
 
 #journalphoto2{
@@ -715,6 +732,8 @@ figure{
   left: 0;
   width: 100%;
 }
+
+
 
  @keyframes scrollIcon{
   0% {
