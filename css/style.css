@@ -688,7 +688,33 @@ figure{
   width: 100%;
 }
 
+#ple{
+  position: relative;
+  top: 52%;
+  left: 35%;
+}
 
+#portfolioFunc{
+  top: 705%;
+  left: 65%;
+}
+
+#portfolioFuncSep{
+  top: 7%;
+  left: 0;
+  width: 100%;
+}
+
+#portfolioFinal{
+  top: 740%;
+  left: 65%;
+}
+
+#portfolioFinalSep{
+  top: 7%;
+  left: 0;
+  width: 100%;
+}
 
  @keyframes scrollIcon{
   0% {
