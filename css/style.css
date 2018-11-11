@@ -144,7 +144,7 @@ section{
   background-color: #f2f2f2;
 }
 
-.seperator{
+.separator{
   top: 112%;
   border: solid 2px #ff4d4d;
   height: 0;
@@ -654,7 +654,7 @@ figure{
   font-family: 'Raleway', sans-serif;
 }
 
-.introText, .subtitle, .skipContents, .scrollIcon, .titleText, .seperator, .aboutContainer, .subBox, .journalSection>h1, .photoContainer, .journalPhoto, .partASection>figure, .partASection>figure:nth-of-type(2), .dash, .dash .bottomImg, #contact, #about, #about2, #journalSep2{
+.introText, .subtitle, .skipContents, .scrollIcon, .titleText, .separator, .aboutContainer, .subBox, .journalSection>h1, .photoContainer, .journalPhoto, .partASection>figure, .partASection>figure:nth-of-type(2), .dash, .dash .bottomImg, #contact, #about, #about2, #journalSep2{
   position: absolute;
 }
 
@@ -673,7 +673,7 @@ figure{
   color: #e6e6e6;
 }
 
-.titleText, .seperator, .titleText, .aboutContainer, .journalSection>h1, .subBox{
+.titleText, .separator, .titleText, .aboutContainer, .journalSection>h1, .subBox{
   left: 5%;
 }
 
