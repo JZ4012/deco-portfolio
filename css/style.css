@@ -44,6 +44,10 @@ section{
   display: block;
   width: 90%;
   margin:5%;
+  border-radius: 4px;
+  border: 2px solid black;
+  cursor: pointer;
+  padding: 2px 5px;
 }
 
 .menu{
@@ -51,10 +55,11 @@ section{
   bottom: 0;
   width: 12%;
   height: 2.5%;
-  background-color: black;
+  background-color: grey;
   z-index: 1;
   transition: .4s ease;
   opacity:0;
+
 }
 
 #menuHead{
@@ -67,7 +72,6 @@ section{
 .backToTopBtn:hover{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
 
 .introText{
   top: 30%;
@@ -245,7 +249,6 @@ section{
 .dash .bottomImg{
   display: none;
   top: 0;
-  left: 0;
   z-index: 99;
 }
 
@@ -292,7 +295,6 @@ figure{
   display: none;
   position: fixed;
   z-index: 3;
-  left: 0;
   top: 0;
   width: 100%;
   height: 100%;
@@ -339,7 +341,6 @@ figure{
   border: dashed 3px #005c99;
   height: 0;
   width: 99.4%;
-  left: 0;
 }
 
 #about2{
@@ -384,10 +385,6 @@ figure{
   top: 315%;
 }
 
-#PartAContainer, #partASep, #PartBContainer, #partBSep, #partCSep, #partCContainer, #reflectionSep, #reflectionContainer, #portfolioSep, #portfolioContainer{
-  width: 40%;
-}
-
 #PartAContainer{
   top: 285%;
 }
@@ -421,15 +418,6 @@ figure{
 
 #partBWorkSep{
   top: 10%;
-  left: 0;
-}
-
-#partBJS, #partBReport, #partCReport, #reflectionB, #reflectionC, #portfolioLayout, #ple{
-  left: 35%;
-}
-
-#partBYear, #partCBug, #partCOther, #reflectionOverall, #reflectionFeedback, #portfolioFunc, #portfolioFinal{
-  left: 65%;
 }
 
 #partBJS{
@@ -438,7 +426,6 @@ figure{
 
 #partBJSSep{
   top: 12.5%;
-  left: 0;
 }
 
 #partBYear{
@@ -447,7 +434,6 @@ figure{
 
 #partBYearSep{
   top: 6%;
-  left: 0;
 }
 
 #modalButton{
@@ -464,7 +450,6 @@ figure{
 
 #partBDashSep{
   top: 15%;
-  left: 0;
 }
 
 #partBTag{
@@ -477,7 +462,6 @@ figure{
 
 #partBReportSep{
   top: 15%;
-  left: 0;
 }
 
 #partCSep, #partCContainer{
@@ -490,12 +474,10 @@ figure{
 
 #partCWorkSep{
   top: 12%;
-  left: 0;
 }
 
 #partCReportSep{
   top: 6.5%;
-  left: 0;
 }
 
 #partCBug{
@@ -504,7 +486,6 @@ figure{
 
 #partCBugSep{
   top: 9%;
-  left: 0;
 }
 
 #partCPitch{
@@ -513,7 +494,6 @@ figure{
 
 #partCPitchSep{
   top: 10%;
-  left: 0;
 }
 
 #partCOther{
@@ -522,7 +502,6 @@ figure{
 
 #partCOtherSep{
   top: 18%;
-  left: 0;
 }
 
 #reflectionSep{
@@ -539,7 +518,6 @@ figure{
 
 #reflectionASep{
   top: 6%;
-  left: 0;
 }
 
 #reflectionB{
@@ -548,7 +526,6 @@ figure{
 
 #reflectionBSep{
   top: 7%;
-  left: 0;
 }
 
 #reflectionC{
@@ -557,7 +534,6 @@ figure{
 
 #reflectionCSep{
   top: 12%;
-  left: 0;
 }
 
 #reflectionOverall{
@@ -566,7 +542,6 @@ figure{
 
 #reflectionOverallSep{
   top: 6%;
-  left: 0;
 }
 
 #reflectionFeedback{
@@ -575,7 +550,6 @@ figure{
 
 #reflectionFeedbackSep{
   top: 12%;
-  left: 0;
 }
 
 #portfolioSep{
@@ -592,7 +566,6 @@ figure{
 
 #portfolioDesignSep{
   top: 5%;
-  left: 0;
 }
 
 #portfolioLayout{
@@ -601,7 +574,6 @@ figure{
 
 #portfolioLayoutSep{
   top: 12%;
-  left: 0;
 }
 
 #ple{
@@ -615,7 +587,6 @@ figure{
 
 #portfolioFuncSep{
   top: 9%;
-  left: 0;
 }
 
 #portfolioFinal{
@@ -624,7 +595,6 @@ figure{
 
 #portfolioFinalSep{
   top: 12%;
-  left: 0;
 }
 
  @keyframes scrollIcon{
@@ -709,4 +679,21 @@ figure{
 
 .subBox>h1, .journalSection>h1, .titleText, .aboutSection{
   color: #77ad81;
+}
+
+
+#partBJS, #partBReport, #partCReport, #reflectionB, #reflectionC, #portfolioLayout, #ple{
+  left: 35%;
+}
+
+#partBYear, #partCBug, #partCOther, #reflectionOverall, #reflectionFeedback, #portfolioFunc, #portfolioFinal{
+  left: 65%;
+}
+
+#about, #about2, #partBWorkSep, #partBJSSep, #partBYearSep, #partBDashSep, #partBReportSep, #partCWorkSep, #partCReportSep, #partCBugSep, #partCPitchSep, #partCOtherSep, #reflectionASep, #reflectionBSep, #reflectionCSep, #reflectionOverallSep, #reflectionFeedbackSep, #portfolioDesignSep, #portfolioLayoutSep, #portfolioFuncSep, #portfolioFinalSep, .dash .bottomImg, #modal, #about, #about2{
+  left: 0;
+}
+
+#PartAContainer, #partASep, #PartBContainer, #partBSep, #partCSep, #partCContainer, #reflectionSep, #reflectionContainer, #portfolioSep, #portfolioContainer{
+  width: 40%;
 }
