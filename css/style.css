@@ -340,6 +340,12 @@ figure{
   color: red;
 }
 
+#contact{
+  position: absolute;
+  top: -50%;
+  left: 110%;
+}
+
 #modal{
   display: none;
   position: fixed;
@@ -359,21 +365,39 @@ figure{
   z-index: 0;
 }
 
+#week13{
+  top: 190%;
+  left: 59%;
+  width: 14%;
+  z-index: 0;
+}
+
+#wip1{
+  top: 180%;
+  left: 77%;
+  width: 14%;
+  z-index: 0;
+}
+
+
 #journalphoto1{
   z-index: 1;
 }
 
 #journalphoto2{
   left: 30%;
+  z-index: 1;
 }
 
 #journalphoto4{
   left: 60%;
+  z-index: 1;
 }
 
 #journalphoto5{
   left: 60%;
   top: 50%;
+  z-index: 1;
 }
 
 #journal1Text{
